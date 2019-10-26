@@ -1,0 +1,36 @@
+.add-ninja-component {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-element {
+  width: 500px;
+}
+
+label {
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+  margin: 10px;
+}
+
+input {
+  display: inline-block;
+  width: 50%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type='submit'] {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-top: 10px;
+  background: #ccc;
+  border-radius: 5px;
+}
