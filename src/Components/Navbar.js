@@ -11,15 +11,15 @@ function Navbar () {
           <ul className="right hide-on-med-and-down">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/posts">Posts</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/reduxPosts">Redux Posts</Link></li>
           </ul>
         </div>
       </nav>
 
       <ul className="sidenav" id="mobile-demo">
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/posts">About</Link></li>
+        <li><Link to="/reduxPosts">Redux Posts</Link></li>
       </ul>
     </div>
   )

@@ -7,14 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.posts .post img {
+.posts .post img, .reduxPosts .post img{
   position: absolute;
   top: 20px;
   left: -100px;
   opacity: 0.6;
 } 
 
-.posts .post {
+.posts .post, .reduxPosts .post{
   overflow: hidden;
   padding-left: 80px;
 }
